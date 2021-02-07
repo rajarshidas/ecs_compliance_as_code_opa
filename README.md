@@ -1,13 +1,5 @@
     #Compliance as Code for Amazon ECS using Open Policy Agent, Amazon Eventbridge, and AWS Lambda
 
-    ```bash
-.
-├── Makefile                    <-- Make to automate build
-├── README.md                   <-- This instructions file
-├── ecs-opa.                    <-- Source code for the lambda function
-│   ├── main.go                 <-- Lambda function code
-└── template.yaml
-```
 
 ## Requirements
 
