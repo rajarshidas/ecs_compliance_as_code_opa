@@ -1,4 +1,4 @@
-    #Compliance as Code for Amazon ECS using Open Policy Agent, Amazon Eventbridge, and AWS Lambda
+# Compliance as Code for Amazon ECS using Open Policy Agent, Amazon Eventbridge, and AWS Lambda
 
 
 ## Requirements
