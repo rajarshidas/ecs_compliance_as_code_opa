@@ -51,6 +51,13 @@ Resources:
           Action:
           - ecs:DeregisterTaskDefinition
           Resource: '*'
+      - Statement:
+        - Sid: KMSPolicy
+          Effect: Allow
+          Action:
+          - kms:GenerateDataKey
+          - kms:Decrypt
+          Resource: !GetAtt DevSecOpsTeamNotificationTopicKey6AB29FA6.Arn
       Events:
         Trigger:
           Type: CloudWatchEvent 
