@@ -1,4 +1,5 @@
 .DS_Store
+*.toml
 node_modules
 docs/website/_build
 
